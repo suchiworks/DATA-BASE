@@ -56,6 +56,16 @@ update student_detalis set fees = '14000' where Id = 5;
 update student_detalis set fees = '15000' where Id = 6;
 
 
+#UPDATE
+update student_details set squalfication = BCA where sname = 'AKASH';
+
+update student_details set fees = '47000';
+update student_details set sadd= 'mumbai' where sname= 'RAM';
+
+#delete any specific row
+delete from student_details where sname='pallabi';
+#delete any specific column
+alter table student_details DROP COLUMN fees;
 
 
 
